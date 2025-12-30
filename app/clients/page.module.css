@@ -1,0 +1,53 @@
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.clientsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.clientLogo {
+    height: 100px;
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: var(--secondary);
+    font-size: 1.2rem;
+}
+
+.testimonialsSection {
+    background: var(--light-gray);
+    padding: 4rem;
+    border-radius: var(--radius);
+    text-align: center;
+}
+
+.testimonialsSection h2 {
+    margin-bottom: 3rem;
+}
+
+.testimonialGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial p {
+    font-style: italic;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: var(--foreground);
+}
+
+.testimonial span {
+    font-weight: 600;
+    color: var(--primary);
+}

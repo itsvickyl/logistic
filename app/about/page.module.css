@@ -1,0 +1,51 @@
+.aboutContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.lead {
+    font-size: 1.25rem;
+    color: var(--secondary);
+    margin-bottom: 3rem;
+    line-height: 1.8;
+}
+
+.contentBlock {
+    margin-bottom: 3rem;
+}
+
+.contentBlock h2 {
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.statsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+    text-align: center;
+    background: var(--light-gray);
+    padding: 3rem;
+    border-radius: var(--radius);
+}
+
+.statNumber {
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--accent);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+}
+
+.statLabel {
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .statsGrid {
+        grid-template-columns: 1fr;
+    }
+}
