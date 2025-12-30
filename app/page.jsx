@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import ServiceCard from '@/components/ServiceCard';
+import StatsStrip from '@/components/StatsStrip';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -10,7 +11,12 @@ export default function Home() {
                 <div className="container">
                     <div className={styles.heroContent}>
                         <h1>Reliable Employment & logistics Solutions</h1>
-                        <p>From connecting talent to opportunities, to moving your world safely. We are Vision Services.</p>
+                        <p className={styles.subheading}>Staffing & Relocation solutions for businesses and families.</p>
+                        <div className={styles.trustBadges}>
+                            <span>✅ ISO 9001:2015 Certified</span>
+                            <span>✅ Govt. Logicstics Partner</span>
+                            <span>✅ 100% Insured Moves</span>
+                        </div>
                         <div className={styles.heroButtons}>
                             <Link href="/services" className="btn btn-primary">Our Services</Link>
                             <Link href="/contact" className="btn btn-accent">Get a Quote</Link>
@@ -18,6 +24,9 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* Stats Strip */}
+            <StatsStrip />
 
             {/* Services Section */}
             <section className="section bg-gray">
@@ -73,8 +82,11 @@ export default function Home() {
                             </Link>
                         </div>
                         <div className={styles.splitImage}>
-                            {/* In a real app, use next/image here */}
-                            <div className={styles.placeholderImage}>Vision Services Team</div>
+                            <img
+                                src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                                alt="Vision Services professional team"
+                                className={styles.teamImage}
+                            />
                         </div>
                     </div>
                 </div>

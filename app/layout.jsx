@@ -1,6 +1,7 @@
 import './globals.css';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import StickyCTA from '../components/StickyCTA';
 
 export const metadata = {
     title: 'Vision Services - Employment & Logistics Solutions',
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
                 <main style={{ minHeight: 'calc(100vh - 200px)' }}>
                     {children}
                 </main>
+                <StickyCTA />
                 <Footer />
             </body>
         </html>

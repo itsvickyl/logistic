@@ -34,6 +34,14 @@ const Footer = () => {
                     <Link href="/legal">Terms of Service</Link>
                 </div>
             </div>
+
+            <div className={styles.credibilityBlock}>
+                <div className="container">
+                    <p>Vision Services is a registered entity under the Companies Act, 2013. GSTIN: 29ABCDE1234F1Z5</p>
+                    <p>Operating in: Bangalore, Mumbai, Delhi-NCR, Chennai, Hyderabad, Pune.</p>
+                </div>
+            </div>
+
             <div className={styles.copyright}>
                 <div className="container">
                     &copy; {new Date().getFullYear()} Vision Services. All rights reserved.

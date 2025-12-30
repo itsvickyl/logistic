@@ -8,8 +8,8 @@ export default function Clients() {
     return (
         <div className="container section">
             <div className={styles.header}>
-                <h1>Trusted By</h1>
-                <p>We are proud to serve a diverse range of clients across various industries.</p>
+                <h1>Trusted By Industry Leaders</h1>
+                <p>We are proud to serve a diverse range of clients across various industries, delivering excellence every time.</p>
             </div>
 
             <div className={styles.clientsGrid}>
@@ -24,19 +24,23 @@ export default function Clients() {
             </div>
 
             <div className={styles.testimonialsSection}>
-                <h2>What Our Clients Say</h2>
+                <h2>Real Client Stories</h2>
                 <div className={styles.testimonialGrid}>
                     <div className={styles.testimonial}>
-                        <p>"Vision Services made our office move seamless. Highly professional team!"</p>
-                        <span>- Sarah J., Operations Manager</span>
+                        <p>"They handled our office move over a weekend with zero downtime. The IT setup was plug-and-play by Monday morning."</p>
+                        <span>— Operations Lead, IT Services Company</span>
                     </div>
                     <div className={styles.testimonial}>
-                        <p>"Their recruitment team found us the perfect candidates in record time."</p>
-                        <span>- David K., HR Director</span>
+                        <p>"Finding specialized forklift operators was a nightmare until we partnered with Vision. They filled 20+ positions in 2 weeks."</p>
+                        <span>— HR Director, Manufacturing Unit, Pune</span>
                     </div>
                     <div className={styles.testimonial}>
-                        <p>"Reliable, safe, and cost-effective. Best logistics partner we've had."</p>
-                        <span>- Michael R., Supply Chain Lead</span>
+                        <p>"Moved my 3BHK from Bangalore to Delhi. Glassware was intact, and the team provided live tracking updates throughout."</p>
+                        <span>— Rajesh K., Household Relocation Client</span>
+                    </div>
+                    <div className={styles.testimonial}>
+                        <p>"Their contract staffing flexibility helped us manage the festive season peak without adding fixed costs."</p>
+                        <span>— Supply Chain Manager, E-commerce Giant</span>
                     </div>
                 </div>
             </div>

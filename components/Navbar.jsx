@@ -33,7 +33,7 @@ const Navbar = () => {
                     <Link href="/contact" className={styles.navLink} onClick={() => setIsOpen(false)}>Contact</Link>
 
                     <Link href="/contact" className={`btn btn-accent ${styles.ctaBtn}`} onClick={() => setIsOpen(false)}>
-                        Get Code
+                        Get Quote
                     </Link>
                 </div>
             </div>

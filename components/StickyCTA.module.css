@@ -1,0 +1,40 @@
+.stickyWrapper {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1001;
+    /* Above Navbar and Footer */
+}
+
+.ctaBtn {
+    display: inline-block;
+    background-color: var(--accent);
+    color: white;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    border: 2px solid white;
+    /* Pop effect */
+}
+
+.ctaBtn:hover {
+    transform: translateY(-3px) scale(1.05);
+    background-color: #d97706;
+    box-shadow: 0 6px 20px rgba(245, 158, 11, 0.5);
+}
+
+@media (max-width: 768px) {
+    .stickyWrapper {
+        bottom: 1.5rem;
+        right: 1.5rem;
+    }
+
+    .ctaBtn {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}

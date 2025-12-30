@@ -30,6 +30,42 @@ const ServiceTabs = () => {
                             <h2>Workforce & Staffing Solutions</h2>
                             <p>Tailored recruitment strategies to fit your business needs.</p>
                         </div>
+
+                        {/* How It Works - Employment */}
+                        <div className={styles.processSection}>
+                            <h3>How We Hire</h3>
+                            <div className={styles.steps}>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>1</div>
+                                    <h4>Analysis</h4>
+                                    <p>Understanding requirements</p>
+                                </div>
+                                <div className={styles.stepLine}></div>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>2</div>
+                                    <h4>Screening</h4>
+                                    <p>Vetting best talent</p>
+                                </div>
+                                <div className={styles.stepLine}></div>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>3</div>
+                                    <h4>Shortlist</h4>
+                                    <p>Presenting top candidates</p>
+                                </div>
+                                <div className={styles.stepLine}></div>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>4</div>
+                                    <h4>Interview</h4>
+                                    <p>Client assessment</p>
+                                </div>
+                                <div className={styles.stepLine}></div>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>5</div>
+                                    <h4>Onboard</h4>
+                                    <p>Seamless integration</p>
+                                </div>
+                            </div>
+                        </div>
                         <div className={styles.grid}>
                             <ServiceCard
                                 title="Permanent Staffing"
@@ -64,6 +100,42 @@ const ServiceTabs = () => {
                         <div className={styles.categoryHeader}>
                             <h2>Relocation & Logistics Solutions</h2>
                             <p>Seamless movement of goods, vehicles, and households.</p>
+                        </div>
+
+                        {/* How It Works - Logistics */}
+                        <div className={styles.processSection}>
+                            <h3>Our Logistics Process</h3>
+                            <div className={styles.steps}>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>1</div>
+                                    <h4>Quote</h4>
+                                    <p>Request & Estimation</p>
+                                </div>
+                                <div className={styles.stepLine}></div>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>2</div>
+                                    <h4>Inspection</h4>
+                                    <p>Site survey & plan</p>
+                                </div>
+                                <div className={styles.stepLine}></div>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>3</div>
+                                    <h4>Packing</h4>
+                                    <p>Secure labeling & boxing</p>
+                                </div>
+                                <div className={styles.stepLine}></div>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>4</div>
+                                    <h4>Transport</h4>
+                                    <p>Safe transit via fleet</p>
+                                </div>
+                                <div className={styles.stepLine}></div>
+                                <div className={styles.step}>
+                                    <div className={styles.stepIcon}>5</div>
+                                    <h4>Delivery</h4>
+                                    <p>Unloading & Setup</p>
+                                </div>
+                            </div>
                         </div>
                         <div className={styles.grid}>
                             <ServiceCard
